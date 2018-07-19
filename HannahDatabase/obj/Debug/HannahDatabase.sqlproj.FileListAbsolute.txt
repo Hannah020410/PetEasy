@@ -1,0 +1,9 @@
+E:\Cyril\PetEasy\HannahDatabase\bin\Debug\HannahDatabase.dacpac
+E:\Cyril\PetEasy\HannahDatabase\bin\Debug\HannahDatabase.dll
+E:\Cyril\PetEasy\HannahDatabase\bin\Debug\HannahDatabase.pdb
+E:\Cyril\PetEasy\HannahDatabase\obj\Debug\HannahDatabase.dll
+E:\Cyril\PetEasy\HannahDatabase\obj\Debug\HannahDatabase.pdb
+E:\Cyril\PetEasy\HannahDatabase\obj\Debug\Model.xml
+E:\Cyril\PetEasy\HannahDatabase\obj\Debug\refactor.xml
+E:\Cyril\PetEasy\HannahDatabase\obj\Debug\postdeploy.sql
+E:\Cyril\PetEasy\HannahDatabase\obj\Debug\predeploy.sql

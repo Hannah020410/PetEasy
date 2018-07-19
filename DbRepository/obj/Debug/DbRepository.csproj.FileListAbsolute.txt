@@ -1,0 +1,8 @@
+E:\Cyril\PetEasy\DbRepository\bin\Debug\DbRepository.dll.config
+E:\Cyril\PetEasy\DbRepository\bin\Debug\DbRepository.dll
+E:\Cyril\PetEasy\DbRepository\bin\Debug\DbRepository.pdb
+E:\Cyril\PetEasy\DbRepository\bin\Debug\SqlSugar.dll
+E:\Cyril\PetEasy\DbRepository\obj\Debug\DbRepository.csproj.CoreCompileInputs.cache
+E:\Cyril\PetEasy\DbRepository\obj\Debug\DbRepository.csproj.CopyComplete
+E:\Cyril\PetEasy\DbRepository\obj\Debug\DbRepository.dll
+E:\Cyril\PetEasy\DbRepository\obj\Debug\DbRepository.pdb
