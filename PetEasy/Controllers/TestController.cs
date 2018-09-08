@@ -1,5 +1,4 @@
-﻿using BusinessServices;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace PetEasy.Controllers
 {
@@ -8,10 +7,16 @@ namespace PetEasy.Controllers
         // GET: Test
         public ActionResult Index()
         {
-            var result = new TestService().GetAll();
+            //var result = new TestService().GetAll();
 
-            ViewBag.infoList = result;
+            //ViewBag.infoList = result;
 
+            return View();
+        }
+
+        // Test Insert
+        public ActionResult InsertPage()
+        {
             return View();
         }
     }
