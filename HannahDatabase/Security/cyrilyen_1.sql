@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [cyrilyen]
+    WITH PASSWORD = N'prgT{vkxw|gqtkOmwgztPhfjmsFT7_&#$!~<okqr8kn{gs|l', SID = 0xA2B5C1E82D5F3146A27977AFD90A84C7, DEFAULT_DATABASE = [HANNAH], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

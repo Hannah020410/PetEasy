@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[GroomerInfo] (
+    [Id]             BIGINT        NOT NULL,
+    [PersonalId]     VARCHAR (15)  NOT NULL,
+    [Name]           VARCHAR (15)  NOT NULL,
+    [GroomerCell]    VARCHAR (15)  NOT NULL,
+    [GroomerStatus]  VARCHAR (10)  NOT NULL,
+    [Gender]         NCHAR (10)    NOT NULL,
+    [Age]            INT           NULL,
+    [BasicSalary]    INT           NULL,
+    [HourlySalary]   INT           NULL,
+    [ServiceArea1]   VARCHAR (10)  NOT NULL,
+    [ServiceArea2]   VARCHAR (10)  NULL,
+    [ServiceArea3]   VARCHAR (10)  NULL,
+    [ServiceArea4]   VARCHAR (10)  NULL,
+    [ServiceArea5]   VARCHAR (10)  NULL,
+    [SkillLevel]     VARCHAR (5)   NOT NULL,
+    [Skill1]         VARCHAR (10)  NOT NULL,
+    [Skill2]         VARCHAR (10)  NULL,
+    [Skill3]         VARCHAR (10)  NULL,
+    [Skill4]         VARCHAR (10)  NULL,
+    [Skill5]         VARCHAR (10)  NULL,
+    [Introduce]      NVARCHAR (50) NOT NULL,
+    [Photo]          VARCHAR (50)  NULL,
+    [CreateDateTime] DATETIME      NOT NULL,
+    CONSTRAINT [PK_GroomerInfo] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

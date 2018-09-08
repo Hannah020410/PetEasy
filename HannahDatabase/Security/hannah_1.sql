@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [hannah]
+    WITH PASSWORD = N'phr&Vg<t{ekX5x|ugqYtwgz0msFT7_&#$!~<r4t,hfYjokqr', SID = 0x90F157267690CC4381BC9FBD26910DBB, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

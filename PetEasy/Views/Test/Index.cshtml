@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SBAdmin.cshtml";
+}
+
+<script src="~/SBAdmin/vendor/datatables/js/jquery.js"></script>
+<script src="~/SBAdmin/vendor/datatables/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="~/SBAdmin/vendor/datatables/css/jquery.dataTables.css" />
+
+<h2> DataTable 示範</h2>
+
+<div class="col-lg-12">
+    <table id="TestInfo"></table>
+</div>
+
+<script type="text/javascript">
+    var sourceData = @Html.Raw(ViewBag.infoList);
+
+    $("#TestInfo").DataTable({
+        data: sourceData,
+        columns: [
+            { title: "Id", data: "Id" },
+            { title: "MessageOne", data: "MessageOne" },
+            { title: "MessageTwo", data: "MessageTwo" },
+            { title: "MemoOne", data: "MemoOne" },
+            { title: "MemoTwo", data: "MemoTwo" },
+        ]
+    });
+
+</script>
+
+
+
