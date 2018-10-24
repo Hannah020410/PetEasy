@@ -1,3 +1,0 @@
-﻿CREATE LOGIN [adam]
-    WITH PASSWORD = N'U>rprg{kx|g= +qtwg?cztRhmsFT7_&#$!~<fjokqrdkn+{p', SID = 0x673D4A45207C18428A87860F5FDD2F04, DEFAULT_DATABASE = [HANNAH], DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
-
