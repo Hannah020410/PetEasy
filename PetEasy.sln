@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetEasy", "PetEasy\PetEasy.csproj", "{5EC656C6-6706-4134-9DE5-B7E00D0F6D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSite", "WebSite", "{D6465480-91C7-4BEF-A05D-93948CE52916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EC656C6-6706-4134-9DE5-B7E00D0F6D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC656C6-6706-4134-9DE5-B7E00D0F6D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC656C6-6706-4134-9DE5-B7E00D0F6D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC656C6-6706-4134-9DE5-B7E00D0F6D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EC656C6-6706-4134-9DE5-B7E00D0F6D4E} = {D6465480-91C7-4BEF-A05D-93948CE52916}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6F5DDD0-CE42-4D91-A549-81E6C036939E}
+	EndGlobalSection
+EndGlobal
