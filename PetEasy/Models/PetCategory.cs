@@ -11,17 +11,12 @@ namespace PetEasy.Models
 {
     using System;
     using System.Collections.Generic;
-    //using System.ComponentModel.DataAnnotations;
     
     public partial class PetCategory
     {
-        //[Display(Name ="類型編號")]
         public long Id { get; set; }
-        //[Display(Name = "類型英文名")]
         public string Category { get; set; }
-        //[Display(Name = "類型中文名")]
         public string CName { get; set; }
-        //[Display(Name = "建立時間")]
         public System.DateTime CreateDateTime { get; set; }
     }
 }
