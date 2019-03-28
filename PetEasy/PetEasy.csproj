@@ -235,104 +235,110 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Company.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CompanyOwner.cs">
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CompanyShop.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\CustomerInfo.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EmpInfo.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EmpSalary.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\EmpWorkSchedule.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\GroomerInfo.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\GroomerMatchMaking.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\GroomerReputation.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\HannahEntities.Context.cs">
+    <Compile Include="Models\HannahDBModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>HannahEntities.Context.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\HannahEntities.cs">
+    <Compile Include="Models\HannahDBModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\HannahEntities.Designer.cs">
+    <Compile Include="Models\HannahDBModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>HannahEntities.edmx</DependentUpon>
+      <DependentUpon>HannahDBModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\ItemInfo.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginInfo.cs">
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PetBreed.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PetCategory.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PetEasyContext.cs" />
     <Compile Include="Models\PetInfo.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ProductForSell.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PurchaseDetails.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PurchaseInvoice.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\ShopCapacityDef.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+    <Compile Include="Models\ShopCapacity.cs">
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShopCustomerInfo.cs">
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ShopReservation.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ShopServiceDef.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ShopServicePackage.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SysBasicService.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagrams.cs">
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SysFunctionPrivilege.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SysKeyTypeValue.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SysMaxIds.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SysModule.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SysPrivilege.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TableStandard.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\VendorInfo.cs">
-      <DependentUpon>HannahEntities.tt</DependentUpon>
+      <DependentUpon>HannahDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -346,15 +352,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\HannahEntities.Context.tt">
+    <Content Include="Models\HannahDBModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>HannahEntities.edmx</DependentUpon>
-      <LastGenOutput>HannahEntities.Context.cs</LastGenOutput>
+      <DependentUpon>HannahDBModel.edmx</DependentUpon>
+      <LastGenOutput>HannahDBModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\HannahEntities.tt">
+    <Content Include="Models\HannahDBModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>HannahEntities.edmx</DependentUpon>
-      <LastGenOutput>HannahEntities.cs</LastGenOutput>
+      <DependentUpon>HannahDBModel.edmx</DependentUpon>
+      <LastGenOutput>HannahDBModel.cs</LastGenOutput>
     </Content>
     <Content Include="SBAdmin\data\flot-data.js" />
     <Content Include="SBAdmin\data\morris-data.js" />
@@ -518,13 +524,6 @@
     <Content Include="SBAdmin\vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="SBAdmin\vendor\font-awesome\scss\_variables.scss" />
     <Content Include="Areas\SysManager\Views\web.config" />
-    <EntityDeploy Include="Models\HannahEntities.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>HannahEntities.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\HannahEntities.edmx.diagram">
-      <DependentUpon>HannahEntities.edmx</DependentUpon>
-    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -547,6 +546,13 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <EntityDeploy Include="Models\HannahDBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>HannahDBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\HannahDBModel.edmx.diagram">
+      <DependentUpon>HannahDBModel.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

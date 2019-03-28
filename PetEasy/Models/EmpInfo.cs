@@ -33,5 +33,6 @@ namespace PetEasy.Models
         public System.DateTime StartWorkDate { get; set; }
         public Nullable<System.DateTime> EndWorkDate { get; set; }
         public string Note { get; set; }
+        public string EmpEmail { get; set; }
     }
 }

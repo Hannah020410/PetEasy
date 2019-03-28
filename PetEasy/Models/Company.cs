@@ -16,14 +16,13 @@ namespace PetEasy.Models
     {
         public long Id { get; set; }
         public string BusinessId { get; set; }
-        public string OwnerId { get; set; }
         public string ComCName { get; set; }
         public string ComEName { get; set; }
         public string ComType { get; set; }
         public string ComAddress { get; set; }
         public string City { get; set; }
         public string County { get; set; }
-        public string ComTel { get; set; }
+        public string ComTele { get; set; }
         public string ComStatus { get; set; }
         public string Logo { get; set; }
         public string Prefix { get; set; }

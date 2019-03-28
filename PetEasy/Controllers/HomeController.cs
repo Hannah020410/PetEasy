@@ -1,10 +1,26 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Linq;
+using System.Web.Mvc;
+using PetEasy.Models;
 
 namespace PetEasy.Controllers {
     public class HomeController : Controller {
+
+        //setup DB connection
+        HannahEntities db = new HannahEntities();
+
         public ActionResult Index()
         {
-            return View();
+            var LoginInfo = db.LoginInfo.ToList();
+
+            if (Session["LoginInfo"] == null) return View("Index", "_layout", Contact);
+
+            return View("Index", "_layout", About);
+        }
+
+        private ActionResult View(string v1, string v2, Func<ActionResult> index)
+        {
+            throw new NotImplementedException();
         }
 
         public ActionResult About()
@@ -25,14 +41,5 @@ namespace PetEasy.Controllers {
         {
             return View();
         }
-
-        //enable below code to test log4net by Kyle
-        //public ActionResult TestLog()
-        //{
-        //    int result = 0;
-        //    int x = 1, y = 0;
-        //    result = x / y;
-        //    return View();
-        //}
     }
 }

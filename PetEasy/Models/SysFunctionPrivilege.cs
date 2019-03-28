@@ -24,7 +24,7 @@ namespace PetEasy.Models
         public string EmployeeFlag { get; set; }
         public string CustomerFlag { get; set; }
         public string VendorFlag { get; set; }
-        public string DesignerFlag { get; set; }
+        public string GroomerFlag { get; set; }
         public string Note { get; set; }
         public System.DateTime CreateDateTime { get; set; }
         public string CreateBy { get; set; }
